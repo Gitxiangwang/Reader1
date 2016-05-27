@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD800B871CF822F30035799E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD800B861CF822F30035799E /* main.m */; };
+		FD800B8A1CF822F30035799E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD800B891CF822F30035799E /* AppDelegate.m */; };
+		FD800B8D1CF822F30035799E /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD800B8C1CF822F30035799E /* HomePage.m */; };
+		FD800B901CF822F30035799E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD800B8E1CF822F30035799E /* Main.storyboard */; };
+		FD800B921CF822F30035799E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD800B911CF822F30035799E /* Assets.xcassets */; };
+		FD800B951CF822F30035799E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD800B931CF822F30035799E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD800B821CF822F30035799E /* ReaderMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaderMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD800B861CF822F30035799E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD800B881CF822F30035799E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD800B891CF822F30035799E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD800B8B1CF822F30035799E /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		FD800B8C1CF822F30035799E /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		FD800B8F1CF822F30035799E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD800B911CF822F30035799E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD800B941CF822F30035799E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD800B961CF822F30035799E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD800B9C1CF823490035799E /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FD800BA81CF8247C0035799E /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD800B7F1CF822F30035799E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD800B791CF822F30035799E = {
+			isa = PBXGroup;
+			children = (
+				FD800B9C1CF823490035799E /* Header.h */,
+				FD800B841CF822F30035799E /* ReaderMe */,
+				FD800B831CF822F30035799E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD800B831CF822F30035799E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD800B821CF822F30035799E /* ReaderMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD800B841CF822F30035799E /* ReaderMe */ = {
+			isa = PBXGroup;
+			children = (
+				FD800BA11CF823B70035799E /* Others */,
+				FD800BA01CF823A60035799E /* View */,
+				FD800B9F1CF8239D0035799E /* Model */,
+				FD800B9E1CF823920035799E /* Controller */,
+				FD800B9D1CF823860035799E /* Global */,
+				FD800B851CF822F30035799E /* Supporting Files */,
+			);
+			path = ReaderMe;
+			sourceTree = "<group>";
+		};
+		FD800B851CF822F30035799E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD800B881CF822F30035799E /* AppDelegate.h */,
+				FD800B891CF822F30035799E /* AppDelegate.m */,
+				FD800B8E1CF822F30035799E /* Main.storyboard */,
+				FD800B911CF822F30035799E /* Assets.xcassets */,
+				FD800B931CF822F30035799E /* LaunchScreen.storyboard */,
+				FD800B861CF822F30035799E /* main.m */,
+				FD800B961CF822F30035799E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD800B9D1CF823860035799E /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				FD800BA81CF8247C0035799E /* Defines.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		FD800B9E1CF823920035799E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD800BAB1CF8261A0035799E /* Cell */,
+				FD800BAA1CF826050035799E /* Widget */,
+				FD800BA91CF825F40035799E /* Page */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FD800B9F1CF8239D0035799E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD800BA01CF823A60035799E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FD800BA11CF823B70035799E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FD800BAD1CF8264C0035799E /* Config */,
+				FD800BAC1CF826450035799E /* Image */,
+				FD800BA61CF824190035799E /* Tools */,
+				FD800BA51CF824120035799E /* SDK */,
+				FD800BA41CF823ED0035799E /* DB */,
+				FD800BA21CF823CD0035799E /* NetWorking */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		FD800BA21CF823CD0035799E /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetWorking;
+			sourceTree = "<group>";
+		};
+		FD800BA41CF823ED0035799E /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		FD800BA51CF824120035799E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		FD800BA61CF824190035799E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		FD800BA91CF825F40035799E /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				FD800B8B1CF822F30035799E /* HomePage.h */,
+				FD800B8C1CF822F30035799E /* HomePage.m */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		FD800BAA1CF826050035799E /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		FD800BAB1CF8261A0035799E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		FD800BAC1CF826450035799E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		FD800BAD1CF8264C0035799E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD800B811CF822F30035799E /* ReaderMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD800B991CF822F30035799E /* Build configuration list for PBXNativeTarget "ReaderMe" */;
+			buildPhases = (
+				FD800B7E1CF822F30035799E /* Sources */,
+				FD800B7F1CF822F30035799E /* Frameworks */,
+				FD800B801CF822F30035799E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReaderMe;
+			productName = ReaderMe;
+			productReference = FD800B821CF822F30035799E /* ReaderMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD800B7A1CF822F30035799E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = www.zhuanqiantouzi.com;
+				TargetAttributes = {
+					FD800B811CF822F30035799E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FD800B7D1CF822F30035799E /* Build configuration list for PBXProject "ReaderMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD800B791CF822F30035799E;
+			productRefGroup = FD800B831CF822F30035799E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD800B811CF822F30035799E /* ReaderMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD800B801CF822F30035799E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD800B951CF822F30035799E /* LaunchScreen.storyboard in Resources */,
+				FD800B921CF822F30035799E /* Assets.xcassets in Resources */,
+				FD800B901CF822F30035799E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD800B7E1CF822F30035799E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD800B8D1CF822F30035799E /* HomePage.m in Sources */,
+				FD800B8A1CF822F30035799E /* AppDelegate.m in Sources */,
+				FD800B871CF822F30035799E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD800B8E1CF822F30035799E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD800B8F1CF822F30035799E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD800B931CF822F30035799E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD800B941CF822F30035799E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD800B971CF822F30035799E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD800B981CF822F30035799E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD800B9A1CF822F30035799E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReaderMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhuanqiantouzi.com.ReaderMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD800B9B1CF822F30035799E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReaderMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhuanqiantouzi.com.ReaderMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD800B7D1CF822F30035799E /* Build configuration list for PBXProject "ReaderMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD800B971CF822F30035799E /* Debug */,
+				FD800B981CF822F30035799E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD800B991CF822F30035799E /* Build configuration list for PBXNativeTarget "ReaderMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD800B9A1CF822F30035799E /* Debug */,
+				FD800B9B1CF822F30035799E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD800B7A1CF822F30035799E /* Project object */;
+}
